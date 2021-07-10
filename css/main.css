@@ -4,11 +4,25 @@ body{
     background-color: #111111;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .container{
-    max-width: 1140px;
+
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+
+
+.header{
+
+}
+
+
+
+.form-btn-a{
+    text-decoration: none;
 }
 
 
@@ -17,6 +31,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+/* .mFeedback{
+    display: none;
+} */
 
 
 .header__logo span{
@@ -100,7 +118,7 @@ line-height: 29px;
 
 color: #FFFFFF;
 
-transition:  all 5s ease-out;
+/* transition:  all 5s ease-out; */
 }
 
 .hero__btn:hover{
@@ -151,6 +169,9 @@ line-height: 43px;
 .social-block .about-p{
     margin-top: 40px;
 }
+
+
+
 
 /* Paralax card */
 
@@ -245,3 +266,20 @@ line-height: 43px;
     font-weight: 700;
     text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
+
+
+.header__nav-btn{
+    color: inherit;
+    background: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+

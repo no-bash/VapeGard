@@ -9,147 +9,159 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Play:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
 
   <script src="js/vue.js"></script>
+  <script defer src="js/main.js"></script>
   <title>VapeGard</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header__content">
-        <div class="header__logo">
-          <img src="assets/logo.png" alt="">
-          <span>VapeGard</span>
-        </div>
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__nav-item">Главная</li>
-            <li class="header__nav-item">Ассортимент</li>
-            <li class="header__nav-item">О нас</li>
-            <li class="header__nav-item">Контакты</li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <div class="hero">
-        <h1 class="hero__title">
-          Лучшие жидкости с доставкой на дом
-        </h1>
-        <span class="hero__subtitle">
-          Онлайн магазин жидкостей и девайсов - удобное решение, когда лень выходить из дома
-        </span>
-        <button class="hero__btn">Посмотреть друзей</button>
-      </div>
-  
-    <div class="card-container" id="app">
-      <div class="card-block">
-        <h2 class="card-block__title">POD-системы</h2>
-        <div class="cards" >
-  
-  
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-        </div>
-      </div>
-      <div class="card-block">
-        <h2 class="card-block__title">Salt жидкости</h2>
-        <div class="cards" >
-  
-  
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-        </div>
-      </div>
-      <div class="card-block">
-        <h2 class="card-block__title">Одноразовые электронные сигареты</h2>
-        <div class="cards" >
-  
-  
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-          <card data-image="assets/xtra.jpg">
-            <h3 slot="header">Vaperosso XTRA</h1>
-              <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
-                картриджах</p>
-          </card>
-        </div>
-      </div>
-      </div>
-      <div class="about">
-        <h2 class="about-title">О нас</h2>
-        <p class="about-p">
-          Мы являемся компанией представляющей вейп-индустрию. С 2019 года мы зарекомендовали себя, как надёжного продавца жидкостей, электронных сигарет и одноразовых электронных сигарет. Клиентская база активных покупателей более 150-человек, каждый из них может гарантировать вам надежность наших услуг.
-        </p>
-      </div>
-      <div class="about">
-        <h2 class="about-title">Мы в соц сетях</h2>
-        <div class="social-block">
-          <span class="about-p">Вк</span>
-          <span class="about-p">Инст</span>
-          <span class="about-p">ТГ</span>
-        </div>
-      </div>
-    </div>
-    </div>
-  </main>
-  <footer>
 
-  </footer>
+
+
+    <header class="header">
+
+      <div class="container">
+        
+  
+
+        <div class="header__content">
+          <div class="header__logo">
+            <img src="assets/logo.png" alt="">
+            <span>VapeGard</span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__nav-item">Главная</li>
+              <li class="header__nav-item">Ассортимент</li>
+              <li class="header__nav-item">О нас</li>
+              <li class="header__nav-item">Контакты</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="hero">
+          <h1 class="hero__title">
+            Лучшие жидкости с доставкой на дом
+          </h1>
+          <span class="hero__subtitle">
+            Онлайн магазин жидкостей и девайсов - удобное решение, когда лень выходить из дома
+          </span>
+          <button class="hero__btn">Посмотреть друзей</button>
+        </div>
+    
+      <div class="card-container" id="app" >
+        <div class="card-block" id="assortiment">
+          <h2 class="card-block__title">POD-системы</h2>
+          <div class="cards" >
+    
+    
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+          </div>
+        </div>
+        <div class="card-block">
+          <h2 class="card-block__title">Salt жидкости</h2>
+          <div class="cards" >
+    
+    
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+          </div>
+        </div>
+        <div class="card-block">
+          <h2 class="card-block__title">Одноразовые электронные сигареты</h2>
+          <div class="cards" >
+    
+    
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+            <card data-image="assets/xtra.jpg">
+              <h3 slot="header">Vaperosso XTRA</h1>
+                <p slot="content">компактная POD-система, оснащенная мощным встроенным аккумулятором, работающая на сменных
+                  картриджах</p>
+            </card>
+          </div>
+        </div>
+        </div>
+        <div class="about" id="about">
+          <h2 class="about-title">О нас</h2>
+          <p class="about-p">
+            Мы являемся компанией представляющей вейп-индустрию. С 2019 года мы зарекомендовали себя, как надёжного продавца жидкостей, электронных сигарет и одноразовых электронных сигарет. Клиентская база активных покупателей более 150-человек, каждый из них может гарантировать вам надежность наших услуг.
+          </p>
+        </div>
+        <div class="about" id="contact">
+          <h2 class="about-title">Мы в соц сетях</h2>
+          <div class="social-block">
+            <span class="about-p">Вк</span>
+            <span class="about-p">Инст</span>
+            <span class="about-p">ТГ</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+
+  
   <script>
     Vue.config.devtools = true;
 
